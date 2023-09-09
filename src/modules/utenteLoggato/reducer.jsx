@@ -14,10 +14,7 @@ export const utenteReducer = (state = initialState, action) => {
             return {
                 token: action.token
             }
-        case 'FETCH_ID_DISPOSITIVO_FISICO':
-            return {
-                idDispositivoFisico: action.idDispositivoFisico
-            }
+        
         default:
             return state;
     }
